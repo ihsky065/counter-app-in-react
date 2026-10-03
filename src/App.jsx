@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <h1>Counter App In React</h1>
+      <Increment/>
     </div>
   );
 }
