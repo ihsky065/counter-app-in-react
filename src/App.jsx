@@ -1,3 +1,7 @@
+import { useState } from "react";
+
+const [counter, setCounter] = useState(0);
+
 function Increment() {
   setCounter(counter + 1)
 }
