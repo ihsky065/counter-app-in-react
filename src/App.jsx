@@ -10,8 +10,9 @@ function App() {
 
   return (
     <div>
-      <h1>Counter App In React</h1>
-      <Increment/>
+      <h2>Counter App In React</h2>
+      <p>{counter}</p>
+      <button onClick={Increment}>Add</button>
     </div>
   );
 }
